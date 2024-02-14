@@ -7,6 +7,7 @@
     remoteWork: false,
     skillSet: [],
   }
+  const name = 'Aman';
 
   function submitForm(event) {
     console.log(formValues);
@@ -68,6 +69,8 @@
       <button>Submit</button>
     </div>
   </form>
+
+  <h3>Hello {name}</h3>
 </main>
 
 <style>
